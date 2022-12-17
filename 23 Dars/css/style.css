@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-image: url(../sahifa/images/chef-icon.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    background-position: center;
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.header__text {
+    font-weight: 600;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.nav__link {
+    padding: 15px 35px;
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.main__bex_box:hover {
+    color: red;
+}
+
+.nav__link:hover {
+    background: #efefef;
+    cursor: pointer;
+}
+
+.main__box {
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    margin: 26px;
+}
+
+.main img {
+    width: 100%;
+    height: 50%;
+}
+
+.btn {
+    padding: 15px 20px;
+    color: red;
+    border: 3px solid red;
+    margin: 40px 680px;
+    background: #fff;
+}
+
+footer {
+    background-image: url(../sahifa/images/background.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form__btn {
+    padding: 15px 15px;
+    background-color: red;
+    border: red;
+}
+
+input {
+    padding: 15px 65px;
+}
+
+span {
+    padding: 4px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.t1 {
+
+    background-color: #F09133;
+    color: white;
+}
+
+.t2 {
+    background-color: #F6B16C;
+}
+
+.t3 {
+    background-color: #7FD5E2;
+}
+
+.t4 {
+    background-color: #EB6E6A;
+}
+
+.t5 {
+    background-color: #B5D95D;
+}
+
+.t6 {
+    background-color: #F97D75;
+}
+
+.footer__h1 {
+    text-align: center;
+    color: white;
+}
